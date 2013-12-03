@@ -14,7 +14,7 @@
         // PhoneGap is ready
         //
         function onDeviceReady() {
-            playAudio("han.mp3");
+            playAudio("/assets/www/han.mp3");
         }
 
         // Audio player
@@ -97,7 +97,7 @@
       
       
       <body>
-        <a href="#" class="btn large" onclick="playAudio('han.mp3');">Play Audio</a>
+        <a href="#" class="btn large" onclick="playAudio('/assets/www/han.mp3');">Play Audio</a>
         <a href="#" class="btn large" onclick="pauseAudio();">Pause Playing Audio</a>
         <a href="#" class="btn large" onclick="stopAudio();">Stop Playing Audio</a>
         <p id="audio_position"></p>
